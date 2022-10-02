@@ -21,17 +21,13 @@ Just the basics of git. In this README it'll outline the basics of pushing your 
 It is highly encouraged to look up what these commands do and why it is done.
 
 ## GUI Method
-- Here's a link containing many choices of github gui: https://git-scm.com/downloads/guis/
-- I'll be using Github Desktop for Windows
+1. Intall GUI. Here's a link containing many choices of github gui: https://git-scm.com/downloads/guis/. I'll be using Github Desktop for Windows
+2. Sign into Github.com and authorize
+3. Make sure you have the correct email. You can select "Use my GitHub account name and email address" to autoamtically select your email.
+4. Click on "Clone a repository from the Internet..."
+5. You should have a list of repos available for you to clone. Just type in the search bar for your repo, select it and clone.
 
-1. Sign into Github.com and authorize
-2. Make sure you have the correct email. You can select "Use my GitHub account name and email address" to autoamtically select your email.
-3. Click on "Clone a repository from the Internet..."
-4. You should have a list of repos available for you to clone. Just type in the search bar for your repo, select it and clone.
+6. You can now make changes to the files you've cloned/pulled from the repository.
 
-5. You can now make changes to the files you've cloned/pulled from the repository.
-
-6. Stage changes. Any changes you've made should automatically appear in the gui. You can add the description of your changes in the bottom left. When ready, click on "Commit to main".
-7. Push changes. Click on "Push origin" and your changes will be uploaded.
-
-
+7. Stage changes. Any changes you've made should automatically appear in the gui. You can add the description of your changes in the bottom left. When ready, click on "Commit to main".
+8. Push changes. Click on "Push origin" and your changes will be uploaded.
