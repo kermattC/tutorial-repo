@@ -2,7 +2,7 @@
 Just the basics of git. In this README it'll outline the basics of pushing your lab to github.
 
 Prerequisites:
-1. If you haven't already, install git -Here's a link that outlines how to install git across multiple operating systems: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+1. If you haven't already, install git. Here's a link that outlines how to install git across multiple operating systems: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 Terminal Method (Windows command prompt, MacOS/Linux terminal, etc):
 1. Create a folder. Then in your terminal, change directory to that folder
@@ -10,9 +10,10 @@ Terminal Method (Windows command prompt, MacOS/Linux terminal, etc):
 3. Copy the https link to the repository. You can find it on the main page of your repository. Click on the green button on the right that says "Code" and copy the link. It should end with ".git"
 4. Clone or pull the repo. _Either way works for the case of the lab, but I highly encourage you to look up the difference between the two since you'll probably be using git for your group projects._ To clone the repo, use ```git clone <your repo link here>```. For example in this repo, I would type this in the command line: ``` git clone https://github.com/kermattC/tutorial-repo.git ```. And for pull: ```git pull https://github.com/kermattC/tutorial-repo.git```
 5. You can now make changes to the files you've cloned/pulled from the repository.
+6. Add the files you've made changes to. You can add them individually using ```git add <file or folder name here>```. You can use ```git add .``` to add all the files and folders that have your local changes too. 
+7. Stage your changes. You can do so via ```git commit```, which will launch a text editor. You should put a message that briefly describes the changes you made, so you can refer back to it in the future. A shortcut is to do ```git commit -m "describe your changes here" ``` where you can put the commit message in the same line
+8. Push your changes. Now that you're ready to upload, you can do so using the git push command. You can add a tracking reference by adding  ```-u``` at the end. You should also specify the origin and the branch you're pushing to -> ```git push -u origin <branch you're pushing to>```. 
 
-6. Add an origin. You'
+It is highly encouraged to look up what these commands do and why it is done.
 
-7. Add the files you've made changes to. You can add them individually using ```git add <file or folder name here>```. You can use ```git add .``` to add all the files and folders that have your local changes too. 
-8. Stage your changes. You can do so via ```git commit```, which will launch a text editor. You should put a message that briefly describes the changes you made, so you can refer back to it in the future. A shortcut is to do ```git commit -m "describe your changes here" ``` where you can put the commit message in the same line
-9. Push your changes. Now that you're ready to upload, you can do so via ```git push```. 
+GUI Method 
