@@ -7,4 +7,4 @@ Terminal Method (Windows command prompt, MacOS/Linux terminal, etc):
 2. Create a folder. Then in your terminal, change directory to that folder
 3. Make sure you're in that folder. Then initialize the folder as a git repository via ```git init```
 4. Copy the https link to the repository. You can find it on the main page of your repository. Look for the 
-{+ addition 1 +}
+- {+ addition 1 +}
