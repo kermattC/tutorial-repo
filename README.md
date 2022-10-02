@@ -12,3 +12,5 @@ Terminal Method (Windows command prompt, MacOS/Linux terminal, etc):
 5. By now you've got a copy of the repository. You can now make changes to it. After you're ready to push the changes, first add the files you have changed. You can add them individually using ```git add <file or folder name here>```. You can use ```git add .``` to add all the files and folders that have your local changes too. 
 6. Stage your changes. You can do so via ```git commit```, which will launch a text editor. You should put a message that briefly describes the changes you made, so you can refer back to it in the future. A shortcut is to do ```git commit -m "describe your changes here" ``` where you can put the commit message in the same line
 7. Push your changes. Now that you're ready to upload, you can do so via ```git push 
+
+testymctestest
