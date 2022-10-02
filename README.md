@@ -26,5 +26,6 @@ It is highly encouraged to look up what these commands do and why it is done.
 2. Make sure you have the correct email. You can select "Use my GitHub account name and email address" to autoamtically select your email.
 3. Click on "Clone a repository from the Internet..."
 4. You should have a list of repos available for you to clone. Just type in the search bar for your repo, select it and clone.
-5. 
+
+5. You can now make changes to the files you've cloned/pulled from the repository.
 
