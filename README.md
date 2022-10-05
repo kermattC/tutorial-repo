@@ -31,3 +31,4 @@ It is highly encouraged to look up what these commands do and why it is done.
 
 7. Stage changes. Any changes you've made should automatically appear in the gui. You can add the description of your changes in the bottom left. When ready, click on "Commit to main".
 8. Push changes. Click on "Push origin" and your changes will be uploaded.
+
